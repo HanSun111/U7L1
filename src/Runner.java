@@ -16,5 +16,13 @@ public class Runner {
         Cat c4 = new Cat();
         c4.setCatName("Ta");
         cats.add(c4);
+
+        Cat newCat = new Cat();
+        newCat.setCatName("Ginger");
+        cats.set(2, newCat);
+
+        cats
+
+        System.out.println(cats);
     }
 }
